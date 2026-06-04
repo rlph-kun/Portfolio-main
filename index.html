@@ -19,17 +19,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door-fill me-1" aria-hidden="true"></i>Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="projects.html"><i class="bi bi-folder2-open me-1" aria-hidden="true"></i>Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="tech.html"><i class="bi bi-tools me-1" aria-hidden="true"></i>Tech Stacks</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope me-1" aria-hidden="true"></i>Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#home"><i class="bi bi-house-door-fill me-1" aria-hidden="true"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person-lines-fill me-1" aria-hidden="true"></i>About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects"><i class="bi bi-folder2-open me-1" aria-hidden="true"></i>Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tech"><i class="bi bi-tools me-1" aria-hidden="true"></i>Tech Stacks</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope me-1" aria-hidden="true"></i>Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Hero -->
-  <header class="hero-section">
+  <header class="hero-section" id="home">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-lg-7">
@@ -83,47 +84,236 @@
     </div>
   </header>
 
-  <!-- Highlights -->
   <main class="container my-5">
-    <div class="page-intro">
-      <div>
-        <span class="section-kicker">Selected work</span>
-        <h2 class="h3 mb-2 mt-3">Practical builds, not placeholders</h2>
-        <p>Projects, tools, and design habits I use to solve coursework and real product problems with a polished, professional finish.</p>
+    <section class="page-section" id="about">
+      <div class="page-intro">
+        <div>
+          <span class="section-kicker">About</span>
+          <h2 class="h3 mb-2 mt-3">Practical builds, not placeholders</h2>
+          <p>Projects, tools, and design habits I use to solve coursework and real product problems with a polished, professional finish.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Professional Profile</h5>
-            <p class="card-text text-secondary">Magna Cum Laude IT graduate with hands-on experience spanning software quality assurance, technical operations, and full-stack web development. Comfortable working across development, testing, and operations environments with a focus on accuracy and reliability.</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Professional Profile</h5>
+              <p class="card-text text-secondary">Magna Cum Laude IT graduate with hands-on experience spanning software quality assurance, technical operations, and full-stack web development. Comfortable working across development, testing, and operations environments with a focus on accuracy and reliability.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Work Experience</h5>
+              <p class="card-text text-secondary mb-2"><strong>Robot/VR Operations &amp; Data Specialist</strong> | Outsource, Mar 2026 – Jun 2026 (Contractual)</p>
+              <p class="card-text text-secondary mb-2"><strong>Quality Assurance Intern</strong> | OnDemandInnovation (ODI), 2025 – 2026</p>
+              <a class="stretched-link" href="#contact"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Education &amp; Certifications</h5>
+              <p class="card-text text-secondary mb-2">BS Information Technology, Computer Communication Development Institute, 2022 – 2026</p>
+              <p class="card-text text-secondary mb-2">Junior–Senior High School, Juban National High School, 2017 – 2022</p>
+              <p class="card-text text-secondary mb-0">Learning Jira Cloud Edition, Learning Jira Software, Learning Confluence, Figma Essential Training: The Basics</p>
+              <a class="stretched-link" href="#tech"></a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Work Experience</h5>
-            <p class="card-text text-secondary mb-2"><strong>Robot/VR Operations &amp; Data Specialist</strong> | Outsource, Mar 2026 – Jun 2026 (Contractual)</p>
-            <p class="card-text text-secondary mb-2"><strong>Quality Assurance Intern</strong> | OnDemandInnovation (ODI), 2025 – 2026</p>
-            <a class="stretched-link" href="contact.html"></a>
+    </section>
+
+    <section class="page-section" id="projects">
+      <div class="page-intro">
+        <div>
+          <span class="section-kicker">Selected work</span>
+          <h2 class="h3 mb-2 mt-3">Featured projects</h2>
+          <p>Project samples, UI studies, and systems work presented in one continuous scroll instead of separate pages.</p>
+        </div>
+        <div class="surface-card px-4 py-3">
+          <span class="metric-label">Portfolio</span>
+          <span class="metric-value">4 builds</span>
+          <p class="mb-0 mt-2">Explore the full case studies or jump to the project gallery.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm project-card">
+            <a href="projects/posims.html"><img src="assets/images/posims.png?v=2" class="card-img-top" alt="POS & Inventory Management System"></a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">JohnTech POS &amp; Inventory (Ongoing)</h5>
+              <p class="card-text text-secondary">Capstone project for a full-stack POS with role-based authentication, real-time sales and inventory tracking for two branches, and automated management tools.</p>
+              <a class="stretched-link" href="projects/posims.html" aria-label="View POS & Inventory details"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm project-card">
+            <a href="projects/ai-lms.html"><img src="assets/images/ai-lms.png" class="card-img-top" alt="AI Learning Management System"></a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">AI Learning Management System</h5>
+              <p class="card-text text-secondary">Hackathon case study and interface designs for a role-based LMS with an AI assistant, dashboards, and quiz generation concepts.</p>
+              <a class="stretched-link" href="projects/ai-lms.html" aria-label="View AI LMS details"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm project-card">
+            <a href="projects/crypchat.html"><img src="assets/images/crypchat.png" class="card-img-top" alt="CryptChat UI/UX case study"></a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">CryptChat – UI/UX Case Study</h5>
+              <p class="card-text text-secondary">Privacy-focused messaging app concept with encryption ideas, disappearing messages, screenshot restrictions, and secure authentication flows.</p>
+              <a class="stretched-link" href="projects/crypchat.html" aria-label="View CryptChat details"></a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Education &amp; Certifications</h5>
-            <p class="card-text text-secondary mb-2">BS Information Technology, Computer Communication Development Institute, 2022 – 2026</p>
-            <p class="card-text text-secondary mb-2">Junior–Senior High School, Juban National High School, 2017 – 2022</p>
-            <p class="card-text text-secondary mb-0">Learning Jira Cloud Edition, Learning Jira Software, Learning Confluence, Figma Essential Training: The Basics</p>
-            <a class="stretched-link" href="tech.html"></a>
+
+      <div class="d-flex flex-wrap gap-3 mt-4">
+        <a href="projects.html" class="btn btn-primary"><i class="bi bi-grid-3x3-gap me-2" aria-hidden="true"></i>Open full project gallery</a>
+      </div>
+    </section>
+
+    <section class="page-section" id="tech">
+      <div class="page-intro">
+        <div>
+          <span class="section-kicker">Capabilities</span>
+          <h2 class="h3 mb-2 mt-3">Tech stacks and tools</h2>
+          <p>QA, IT operations, and development tools from my professional background, organized around what I use in real work and project environments.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">QA &amp; Testing</h5>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-warning text-dark"><i class="bi bi-clipboard-check me-1" aria-hidden="true"></i>Manual Testing</span>
+                <span class="badge text-bg-dark"><i class="bi bi-gear-wide-connected me-1" aria-hidden="true"></i>Functional Testing</span>
+                <span class="badge text-bg-primary"><i class="bi bi-clock-history me-1" aria-hidden="true"></i>Regression Testing</span>
+                <span class="badge text-bg-info"><i class="bi bi-journal-text me-1" aria-hidden="true"></i>Test Case Design</span>
+                <span class="badge text-bg-success"><i class="bi bi-bug me-1" aria-hidden="true"></i>Bug Reporting</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-exclamation-circle me-1" aria-hidden="true"></i>Defect Tracking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">IT &amp; Systems</h5>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-secondary"><i class="bi bi-tools me-1" aria-hidden="true"></i>System Troubleshooting</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-hdd-network me-1" aria-hidden="true"></i>Server Configuration</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-database me-1" aria-hidden="true"></i>Database Administration</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-tools me-1" aria-hidden="true"></i>MySQL Workbench</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-diagram-3 me-1" aria-hidden="true"></i>Network Basics</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-file-earmark-text me-1" aria-hidden="true"></i>Protocol Adherence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Data &amp; Operations</h5>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-secondary">Data Collection</span>
+                <span class="badge text-bg-secondary">Data Validation</span>
+                <span class="badge text-bg-secondary">AI Training Pipelines</span>
+                <span class="badge text-bg-secondary">Quality Checking</span>
+                <span class="badge text-bg-secondary">Documentation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Bug Tracking &amp; Languages</h5>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-secondary"><i class="bi bi-kanban me-1" aria-hidden="true"></i>Jira</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-file-text me-1" aria-hidden="true"></i>Confluence</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-code-slash me-1" aria-hidden="true"></i>PHP</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-filetype-js me-1" aria-hidden="true"></i>JavaScript</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-filetype-html me-1" aria-hidden="true"></i>HTML</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-filetype-css me-1" aria-hidden="true"></i>CSS</span>
+                <span class="badge text-bg-secondary"><i class="bi bi-database me-1" aria-hidden="true"></i>SQL</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section class="page-section" id="contact">
+      <div class="page-intro">
+        <div>
+          <span class="section-kicker">Contact</span>
+          <h2 class="h3 mb-2 mt-3">Let’s talk about a project</h2>
+          <p>Reach me through the form page or use the direct contact links below if you want a faster reply.</p>
+        </div>
+      </div>
+
+      <div class="surface-card h-100 p-4 p-lg-5 contact-merged">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6 contact-merged__primary">
+            <span class="section-kicker">Direct details</span>
+            <h3 class="h4 mt-3 mb-3">Available for QA roles, IT support, web projects, and process-oriented work.</h3>
+            <p class="mb-4">If you need a portfolio walkthrough, a UI review, test support, or help with a website or system task, start here.</p>
+            <div class="info-row mb-4">
+              <div class="info-item">
+                <span class="metric-label">Typical response</span>
+                <span class="metric-value">Within 24 hours</span>
+              </div>
+              <div class="info-item">
+                <span class="metric-label">Best contact</span>
+                <span class="metric-value">Email first</span>
+              </div>
+              <div class="info-item">
+                <span class="metric-label">Open to</span>
+                <span class="metric-value">QA, IT, Web</span>
+              </div>
+            </div>
+            <div class="d-grid gap-3 contact-actions">
+              <span class="skill-chip justify-content-center">Aroroy, Juban, Sorsogon</span>
+              <a class="btn btn-outline-primary" href="mailto:brogadaralph6@gmail.com"><i class="bi bi-envelope me-2" aria-hidden="true"></i>brogadaralph6@gmail.com</a>
+              <a class="btn btn-outline-secondary" href="tel:+639924630793"><i class="bi bi-telephone me-2" aria-hidden="true"></i>0992 463 0793</a>
+              <a class="btn btn-outline-secondary" href="https://github.com/rlphkun" target="_blank" rel="noopener"><i class="bi bi-github me-2" aria-hidden="true"></i>GitHub</a>
+              <a class="btn btn-outline-secondary" href="contact.html"><i class="bi bi-chat-dots me-2" aria-hidden="true"></i>Open contact form</a>
+            </div>
+          </div>
+          <div class="col-lg-6 contact-merged__secondary">
+            <h3 class="h5 mb-3">Quick actions</h3>
+            <p class="mb-4">The full form is still one click away, but this side stays lean so the whole section feels like one unified card.</p>
+            <div class="quick-actions">
+              <div class="surface-micro">
+                <span class="metric-label">For hiring</span>
+                <p class="mb-0 mt-2">QA openings, IT support, technical operations, and entry-level web roles.</p>
+              </div>
+              <div class="surface-micro">
+                <span class="metric-label">For projects</span>
+                <p class="mb-0 mt-2">UI reviews, website fixes, documentation help, and testing support.</p>
+              </div>
+              <div class="surface-micro">
+                <span class="metric-label">For a quick start</span>
+                <p class="mb-0 mt-2">Send your goal, timeline, and the link or file you want reviewed.</p>
+              </div>
+            </div>
+            <div class="d-grid gap-3 mt-4">
+              <a href="contact.html" class="btn btn-primary"><i class="bi bi-send me-2" aria-hidden="true"></i>Go to contact page</a>
+              <a href="assets/Ralph_Brogada_Resume_Tech.pdf" class="btn btn-outline-secondary" download><i class="bi bi-download me-2" aria-hidden="true"></i>Download resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
